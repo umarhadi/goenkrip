@@ -1,8 +1,8 @@
 <?php
-$host = '104.248.147.186:7070';
-$user = 'umar';
-$pass = 'bebekbalap';
-$dbname = 'deni';
+$host = 'containers-us-west-93.railway.app:7289';
+$user = 'root';
+$pass = 'EkIG9TW3HL73cGjeKm2B';
+$dbname = 'railway';
 $mysqli = new mysqli($host, $user, $pass, $dbname);
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: " . $mysqli->connect_error;
