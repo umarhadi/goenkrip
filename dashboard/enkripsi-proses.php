@@ -44,7 +44,7 @@ if (isset($_POST['enkripsi_now'])) {
         exit();
     }
 
-    $sql1   = "INSERT INTO file VALUES ('', '$user', '$final_file', '$finalfile.rda', '', '$size2', '$key', now(), '1', '$deskripsi')";
+    $sql1   = "INSERT INTO file (username, file_name_source, file_name_finish, file_url, file_size, password, tgl_upload, status, keterangan) VALUES ('$user', '$final_file', '$finalfile.rda', '', '$size2', '$key', now(), '1', '$deskripsi')";
     $query1  = $mysqli->query($sql1) or die(mysqli_error($mysqli));
 
     $sql2   = "select * from file where file_url =''";
