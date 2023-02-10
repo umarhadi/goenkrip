@@ -30,7 +30,7 @@ $data = mysqli_fetch_array($query);
   <link href="https://fontbit.io/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="https://raw.githubusercontent.com/umarhadi/goenkrip/main/assets/assets2/css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="https://cdn.statically.io/gh/umarhadi/goenkrip/main/assets/assets2/css/sb-admin-2.min.css" rel="stylesheet">
   <link href="../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 
@@ -292,11 +292,11 @@ $data = mysqli_fetch_array($query);
         });
       });
     </script>
-    <script src="https://raw.githubusercontent.com/umarhadi/goenkrip/main/assets/js/essential-plugins.js"></script>
+    <script src="https://cdn.statically.io/gh/umarhadi/goenkrip/main/assets/js/essential-plugins.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.min.js"></script>
     <script src="../assets/plugins/datatables/js/jquery.dataTables.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script>
-    <script src="https://raw.githubusercontent.com/umarhadi/goenkrip/main/assets/js/main.js"></script>
+    <script src="https://cdn.statically.io/gh/umarhadi/goenkrip/main/assets/js/main.js"></script>
 
 
     <!-- Bootstrap core JavaScript-->
@@ -307,7 +307,7 @@ $data = mysqli_fetch_array($query);
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="https://raw.githubusercontent.com/umarhadi/goenkrip/main/js/sb-admin-2.min.js"></script>
+    <script src="https://cdn.statically.io/gh/umarhadi/goenkrip/main/js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
     <script src="../vendor/datatables/jquery.dataTables.min.js"></script>
